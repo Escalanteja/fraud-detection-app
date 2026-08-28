@@ -12,7 +12,7 @@ st.divider()
 
 transaction_type = st.selectbox(
     "Transaction Type",
-    ["PAYMENT", "TRANSFER", "CASH_OUT", "DEBIT"]
+    ["PAYMENT", "TRANSFER", "CASH_OUT", "DEPOSIT"]
 )
 
 amount = st.number_input("Amount", min_value=0.0, value=1000.0)
